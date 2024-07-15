@@ -27,15 +27,15 @@ body {
 }
 
 .main-card {
-    padding: 2rem 2.5rem 0.5rem 2.5rem;
-    margin: 150px 1.5rem 150px 1.5rem;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    margin: 120px 1.5rem 125px 1.5rem;
     border-radius: 1rem;
     background-color: var(--dark-grey);
 }
 
 img {
     border-radius: 50%;
-    width: 25%;
+    width: 35%;
 }
 
 .img-div {
@@ -47,7 +47,7 @@ img {
 
 h1 {
     color: var(--white);
-    font-weight: 600;
+    font-weight: 400;
     padding-bottom: 0.5rem;
 }
 
@@ -57,14 +57,16 @@ h1 {
 
 p {
     font-weight: 600;
+    font-size: 14px;
     color: var(--green);
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .quote-text {
     font-weight: 400;
+    font-size: 14px;
     color: var(--white);
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 ul {
@@ -73,7 +75,7 @@ ul {
 }
 
 ul li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding: 1rem 0rem 1rem 0rem;
     border-radius: 0.5rem;
     background-color: var(--grey);

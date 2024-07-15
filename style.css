@@ -1,0 +1,82 @@
+/* Imports font 'Inter' */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Custom variables for colors */
+
+:root {
+    --off-black: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+}
+
+/* Default mobile design styles */
+
+/* '*' Targets all elements, resets spaces around and inside of to 0,  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--off-black);
+    color: var(--white);
+    font-family: 'Inter';
+}
+
+.main-card {
+    padding: 2rem 2.5rem 0.5rem 2.5rem;
+    margin: 150px 1.5rem 150px 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--dark-grey);
+}
+
+img {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.card-text {
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+    color: var(--green);
+    padding-bottom: 2rem;
+}
+
+.quote-text {
+    font-weight: 400;
+    color: var(--white);
+    padding-bottom: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+ul li {
+    margin-bottom: 1.5rem;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 0.5rem;
+    background-color: var(--grey);
+}

@@ -92,3 +92,9 @@ button {
     color: var(--off-black);
     cursor: pointer;
 }
+
+/* Removes the underlining of the text in each button */
+
+a {
+    text-decoration: none;
+}

@@ -90,7 +90,8 @@ button {
 .buttons button:hover {
     background-color: var(--green);
     color: var(--off-black);
-    cursor: url(assets/images/icons8-cursor-2.svg), auto;
+    cursor: url('assets/images/icons8-cursor-2.svg'), url('assets/images/icons8-cursor-2.svg'),
+    url('assets/images/icons8-cursor-2.svg'), auto;
 }
 
 /* Removes the underlining of the text in each button */

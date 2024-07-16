@@ -85,7 +85,10 @@ button {
     background-color: var(--grey);
 }
 
+/* Allows buttons to turn green with black text when cursor hovers over them */
+
 .buttons button:hover {
     background-color: var(--green);
     color: var(--off-black);
+    cursor: pointer;
 }

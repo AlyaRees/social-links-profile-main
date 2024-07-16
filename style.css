@@ -69,14 +69,23 @@ p {
     padding-bottom: 1.5rem;
 }
 
-ul {
-    list-style-type: none;
+button {
     font-weight: 600;
+    font-size: 14px;
+    color: var(--white);
 }
 
-ul li {
+.buttons button {
+    width: 100%;
+    border: none;
+    display: block;
     margin-bottom: 1rem;
     padding: 1rem 0rem 1rem 0rem;
     border-radius: 0.5rem;
     background-color: var(--grey);
+}
+
+.buttons button:hover {
+    background-color: var(--green);
+    color: var(--off-black);
 }

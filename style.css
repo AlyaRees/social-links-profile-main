@@ -87,7 +87,7 @@ button {
 
 /* Allows buttons to turn green with black text when cursor hovers over them */
 
-.buttons button:hover {
+button:hover {
     background-color: var(--green);
     color: var(--off-black);
     cursor: url('assets/images/icons8-cursor-2.svg'), url('assets/images/icons8-cursor-2.svg'),
@@ -98,4 +98,22 @@ button {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+    
+    .main-card {
+        width: 25%;
+        margin: auto;
+        margin-top: 120px;
+    }
+    
+    img {
+        width: 30%;
+}
+
+.img-div {
+    padding-bottom: 1.5rem;
+}
+
 }

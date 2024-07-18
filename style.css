@@ -24,6 +24,7 @@ body {
     background-color: var(--off-black);
     color: var(--white);
     font-family: 'Inter';
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .main-card {

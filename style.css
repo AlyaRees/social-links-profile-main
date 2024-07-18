@@ -94,6 +94,12 @@ button:hover {
     url('assets/images/icons8-cursor-2.svg'), auto;
 }
 
+/* Removes bullet points from each listed item (button) */
+
+ul li {
+    list-style-type: none;
+}
+
 /* Removes the underlining of the text in each button */
 
 a {

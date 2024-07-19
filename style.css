@@ -21,10 +21,11 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: var(--off-black);
     color: var(--white);
     font-family: 'Inter';
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
 }
 
 .main-card {
@@ -32,18 +33,12 @@ body {
     margin: 120px 1.5rem 125px 1.5rem;
     border-radius: 1rem;
     background-color: var(--dark-grey);
+    text-align: center;
 }
 
-img {
+.main-card img {
     border-radius: 50%;
-    width: 35%;
-}
-
-.img-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2rem;
+    width: 30%;
 }
 
 h1 {

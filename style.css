@@ -32,7 +32,6 @@ body {
 }
 
 .main-card {
-    width: 100%;
     padding: 1.5rem 1.5rem 0.5rem 1.5rem;
     border-radius: 1rem;
     background-color: var(--dark-grey);
@@ -103,22 +102,4 @@ ul li {
 
 a {
     text-decoration: none;
-}
-
-@media screen and (min-width: 769px) {
-    
-    .main-card {
-        width: 25%;
-        margin: auto;
-        margin-top: 120px;
-    }
-    
-    img {
-        width: 30%;
-}
-
-.img-div {
-    padding-bottom: 1.5rem;
-}
-
 }

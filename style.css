@@ -26,11 +26,14 @@ body {
     color: var(--white);
     font-family: 'Inter';
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-card {
+    width: 100%;
     padding: 1.5rem 1.5rem 0.5rem 1.5rem;
-    margin: 120px 1.5rem 125px 1.5rem;
     border-radius: 1rem;
     background-color: var(--dark-grey);
     text-align: center;
